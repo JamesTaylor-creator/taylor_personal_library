@@ -1,0 +1,172 @@
+Microsoft Windows [Version 10.0.18362.657]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal>npm start
+
+> mongoose-dal@1.0.0 start C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal
+> node ./index.js
+
+Initializing Mongoose Test
+Is a Promise: true
+Connected to MongoDB
+TEST ==>> Creating a new book.
+Epitaph for a Peach: Four Seasons on My Family Farm
+Seasoning of the Witch: Enchantment, Terror, and Deliverance in the City of Love
+Tales of the Catcher
+Tales of the City
+The Serial
+Error:  MongoError: E11000 duplicate key error collection: mongoose_test_app.books index: title_1 dup key: { title: "Ta
+    at Function.create (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\core\error.
+    at toError (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\utils.js:149:22)
+    at C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\operations\common_functions.
+    at handler (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\core\sdam\topology.
+    at C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\cmap\connection_pool.js:352:
+    at handleOperationResult (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\core\
+    at MessageStream.messageHandler (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\li
+    at MessageStream.emit (events.js:223:5)
+    at processIncomingData (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\cmap\me
+    at MessageStream._write (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\cmap\m
+    at doWrite (_stream_writable.js:435:12)
+    at writeOrBuffer (_stream_writable.js:419:5)
+    at MessageStream.Writable.write (_stream_writable.js:309:11)
+    at Socket.ondata (_stream_readable.js:728:22)
+    at Socket.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Tales of the City' },
+  errmsg: 'E11000 duplicate key error collection: mongoose_test_app.books index: title_1 dup key: { title: "Tales of th
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+Error:  MongoError: E11000 duplicate key error collection: mongoose_test_app.books index: title_1 dup key: { title: "Ta
+    at Function.create (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\core\error.
+    at toError (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\utils.js:149:22)
+    at C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\operations\common_functions.
+    at handler (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\core\sdam\topology.
+    at C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\cmap\connection_pool.js:352:
+    at handleOperationResult (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\core\
+    at MessageStream.messageHandler (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\li
+    at MessageStream.emit (events.js:223:5)
+    at processIncomingData (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\cmap\me
+    at MessageStream._write (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\cmap\m
+    at doWrite (_stream_writable.js:435:12)
+    at writeOrBuffer (_stream_writable.js:419:5)
+    at MessageStream.Writable.write (_stream_writable.js:309:11)
+    at Socket.ondata (_stream_readable.js:728:22)
+    at Socket.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Tales of the Catcher' },
+  errmsg: 'E11000 duplicate key error collection: mongoose_test_app.books index: title_1 dup key: { title: "Tales of th
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+Error:  MongoError: E11000 duplicate key error collection: mongoose_test_app.books index: title_1 dup key: { title: "Th
+    at Function.create (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\core\error.
+    at toError (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\utils.js:149:22)
+    at C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\operations\common_functions.
+    at handler (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\core\sdam\topology.
+    at C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\cmap\connection_pool.js:352:
+    at handleOperationResult (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\core\
+    at MessageStream.messageHandler (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\li
+    at MessageStream.emit (events.js:223:5)
+    at processIncomingData (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\cmap\me
+    at MessageStream._write (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\cmap\m
+    at doWrite (_stream_writable.js:435:12)
+    at writeOrBuffer (_stream_writable.js:419:5)
+    at MessageStream.Writable.write (_stream_writable.js:309:11)
+    at Socket.ondata (_stream_readable.js:728:22)
+    at Socket.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'The Serial' },
+  errmsg: 'E11000 duplicate key error collection: mongoose_test_app.books index: title_1 dup key: { title: "The Serial"
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+Error:  MongoError: E11000 duplicate key error collection: mongoose_test_app.books index: title_1 dup key: { title: "Eprm" }
+    at Function.create (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\core\error.
+    at toError (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\utils.js:149:22)
+    at C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\operations\common_functions.
+    at handler (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\core\sdam\topology.
+    at C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\cmap\connection_pool.js:352:
+    at handleOperationResult (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\core\
+    at MessageStream.messageHandler (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\li
+    at MessageStream.emit (events.js:223:5)
+    at processIncomingData (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\cmap\me
+    at MessageStream._write (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\cmap\m
+    at doWrite (_stream_writable.js:435:12)
+    at writeOrBuffer (_stream_writable.js:419:5)
+    at MessageStream.Writable.write (_stream_writable.js:309:11)
+    at Socket.ondata (_stream_readable.js:728:22)
+    at Socket.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Epitaph for a Peach: Four Seasons on My Family Farm' },
+  errmsg: 'E11000 duplicate key error collection: mongoose_test_app.books index: title_1 dup key: { title: "Epitaph for
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+Error:  MongoError: E11000 duplicate key error collection: mongoose_test_app.books index: title_1 dup key: { title: "Se
+Deliverance in the City of Love" }
+    at Function.create (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\core\error.
+    at toError (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\utils.js:149:22)
+    at C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\operations\common_functions.
+    at handler (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\core\sdam\topology.
+    at C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\cmap\connection_pool.js:352:
+    at handleOperationResult (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\core\
+    at MessageStream.messageHandler (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\li
+    at MessageStream.emit (events.js:223:5)
+    at processIncomingData (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\cmap\me
+    at MessageStream._write (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\node_modules\mongodb\lib\cmap\m
+    at doWrite (_stream_writable.js:435:12)
+    at writeOrBuffer (_stream_writable.js:419:5)
+    at MessageStream.Writable.write (_stream_writable.js:309:11)
+    at Socket.ondata (_stream_readable.js:728:22)
+    at Socket.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12) {
+  driver: true,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: {
+    title: 'Seasoning of the Witch: Enchantment, Terror, and Deliverance in the City of Love'
+  },
+  errmsg: 'E11000 duplicate key error collection: mongoose_test_app.books index: title_1 dup key: { title: "Seasoning of the Witch: Enchantment, Terror, and Deliverance in the City of Love" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+
+onnected to MongoDB
+TEST => Updating one user.
+An error has occured:  ReferenceError: User is not defined
+    at update_one_book (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\index.js:143:9)
+    at C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\index.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+Epitaph for a Peach: Four Seasons on My Family Farm
+Seasoning of the Witch: Enchantment, Terror, and Deliverance in the City of Love
+Tales of the Catcher
+Tales of the City
+The Serial
+
+Connected to MongoDB
+TEST => Deleting one book
+An error has occured:  ReferenceError: User is not defined
+    at delete_one_book (C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\index.js:174:30)
+    at C:\Users\thabi\Documents\My Web Sites\sandbox\mongoose-dal\index.js:34:13
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+Epitaph for a Peach: Four Seasons on My Family Farm
+Seasoning of the Witch: Enchantment, Terror, and Deliverance in the City of Love
+Tales of the Catcher
+Tales of the City
+The Serial
